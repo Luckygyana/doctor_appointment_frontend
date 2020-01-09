@@ -1,0 +1,487 @@
+
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+    <!-- Meta Tags -->
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+
+    <meta name="description" content=""><meta name="keywords" content=""><title>DocPlus - Online Multi Doctor Appointment Management</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="https://coolideamedia.com/servixo/docplus/public/uploads/favicon.png">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="animate.min.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap-datepicker.min.css">
+    <link rel="stylesheet" href="jquery-ui.min.css">
+    <link rel="stylesheet" href="font-awesome.min.css">
+    <link rel="stylesheet" href="https://coolideamedia.com/servixo/docplus/public/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://coolideamedia.com/servixo/docplus/public/css/magnific-popup.css">
+    <link rel="stylesheet" href="https://coolideamedia.com/servixo/docplus/public/css/meanmenu.css">
+    <link rel="stylesheet" href="https://coolideamedia.com/servixo/docplus/public/css/select2.min.css">
+    <link rel="stylesheet" href="https://coolideamedia.com/servixo/docplus/public/css/style.css">
+    <link rel="stylesheet" href="https://coolideamedia.com/servixo/docplus/public/css/spacing.css">
+    <link rel="stylesheet" href="https://coolideamedia.com/servixo/docplus/public/css/responsive.css">
+
+    <script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#property=5993ef01e2587a001253a261&product=inline-share-buttons"></script>
+    
+    <style>
+        .header-area,
+        ul.nav-menu li ul li a,
+        .searchbar .input-search,
+        .text-animated li a,
+        .slider-one .owl-nav .owl-prev, 
+        .slider-one .owl-nav .owl-next,
+        .about-tab:before,
+        .progress-gallery .bar-container .progress .progress-bar-custom,
+        .choose-item:before,
+        .feature-icon i,
+        .feature-item:hover .feature-text,
+        .bg-counterup,
+        .portfolio-bg,
+        .faq-header button.faq-button,
+        .faq-header button.faq-button.collapsed:hover,
+        .booking-area:before,
+        .bg-booking,
+        .team-carousel .owl-nav .owl-prev, 
+        .team-carousel .owl-nav .owl-next,
+        .team-text,
+        .team-social li a:hover,
+        .price-header i,
+        .button-df a,
+        .bg-testimonial,
+        .testimonial-carousel .owl-dots .owl-dot,
+        .blog-carousel .owl-nav .owl-prev, 
+        .blog-carousel .owl-nav .owl-next,
+        .blog-author li.blog-button a,
+        .call-us:before,
+        .footer-item h3:before,
+        .footer-item h3:after,
+        .footer-item .btn,
+        .footer-item ul.footer-social li a,
+        .scroll-top,
+        .headstyle h4:before,
+        .headstyle h4:after,
+        .team-detail-text ul li a,
+        .sidebar-item h3:before,
+        .sidebar-item h3:after,
+        .event-contact-item,
+        .gallery-bg,
+        .testimonial-grid .testimonial-description p:before, 
+        .testimonial-two-carousel .testimonial-description p:before,
+        .form-button .btn,
+        .project-carousel .owl-nav .owl-prev, 
+        .project-carousel .owl-nav .owl-next,
+        .sidebar-item button,
+        .contact-item:hover .contact-icon,
+        .contact-form .btn,
+        ul.soc li a,
+        .option-board ul li a:hover {
+            background: #7AA593!important;
+        }
+
+        ul.nav-menu li:hover > a,
+        .searchbar .search-button:hover,
+        .text-animated li a:hover,
+        .text-animated li:last-child a:hover,
+        .slider-one .owl-nav .owl-prev:hover, 
+        .slider-one .owl-nav .owl-next:hover,
+        .feature-item:hover .feature-icon i,
+        .services-text a:hover,
+        .portfolio-menu li.filtr-active,
+        .portfolio-menu li:hover,
+        .portfolio-text h3 a:hover,
+        .form-button .btn2:hover,
+        .blog-item h3 a:hover,
+        .blog-item span i,
+        .blog-author li a i,
+        .blog-author li a:hover,
+        .call-us .button a:hover,
+        .footer-item ul li a:hover,
+        .team-info ul li span,
+        li.event-header-left i,
+        .recent-text a:hover,
+        .event-contact-item:hover .event-contact-icon,
+        .service-sidebar-item ul li a:hover,
+        .portfolio-details ul li span,
+        .sidebar-item ul li a:hover,
+        .blog-one-text h3 a:hover,
+        .blog-one-text ul li i,
+        .single-blog ul li i,
+        .contact-icon {
+            color: #7AA593!important;
+        }
+
+        .funkyradio-success input[type="radio"]:checked ~ label:before, .funkyradio-success input[type="checkbox"]:checked ~ label:before {
+        	background-color: #7AA593!important;
+        }
+
+        .text-animated li a,
+        .slider-one .owl-nav .owl-prev, 
+        .slider-one .owl-nav .owl-next,
+        .feature-icon i,
+        .feature-item:hover .feature-text,
+        .footer-item .form-control,
+        .footer-item .btn,
+        .footer-item ul.footer-social li a,
+        .event-contact-item:hover .event-contact-icon,
+        .form-control:focus,
+        .sidebar-item button,
+        .contact-item:hover .contact-icon,
+        .contact-form .btn {
+            border-color: #7AA593!important;
+        }
+
+        .video-button span {
+            border-left-color: #7AA593!important;
+        }
+
+        .portfolio-menu li.filtr-active,
+        .team-social li a:hover {
+            border-bottom-color: #7AA593!important;
+        }
+
+        .portfolio-menu li.filtr-active:before,
+        .team-social li a:hover {
+            border-top-color: #7AA593!important;
+        }
+
+        ul.nav-menu li ul li:hover > a {
+            background: #f1f1f1!important;
+        }
+        .text-animated li a:hover,
+        .text-animated li:last-child a:hover,
+        .slider-one .owl-nav .owl-prev:hover, 
+        .slider-one .owl-nav .owl-next:hover {
+            background: #fff!important;
+            border-color: #fff!important;
+        }
+        .text-animated li:last-child a {
+            background: #313131!important;
+            border-color: #313131!important;
+        }
+        .blog-author li.blog-button a,
+        .blog-author li.blog-button i,
+        .footer-item ul.footer-social li a:hover,
+        .contact-item:hover .contact-icon {
+            color: #fff!important;
+        }
+        .feature-item:hover .feature-icon i,
+        .faq-header button.faq-button.collapsed {
+            background: #fff!important;
+        }
+        .team-carousel .owl-nav .owl-prev:hover, 
+        .team-carousel .owl-nav .owl-next:hover,
+        .blog-carousel .owl-nav .owl-prev:hover, 
+        .blog-carousel .owl-nav .owl-next:hover,
+        .button-df a:hover,
+        .testimonial-carousel .owl-dots .owl-dot.active,
+        .blog-author li.blog-button a:hover,
+        .footer-item ul.footer-social li a:hover,
+        .team-detail-text ul li a:hover,
+        .form-button .btn:hover,
+        .project-carousel .owl-nav .owl-prev:hover, 
+        .project-carousel .owl-nav .owl-next:hover,
+        .contact-form .btn:hover,
+        ul.soc li a:hover {
+            background: #313131!important;
+        }
+        .footer-item ul.footer-social li a:hover,
+        .contact-form .btn:hover {
+            border-color: #313131!important;
+        }
+        .event-contact-item:hover,
+        .faq-body,
+        .feature-item:hover .feature-icon i, .faq-header button.faq-button.collapsed {
+            background: #f5f5f5!important;
+        }
+
+        .booking-form input:focus,
+        .booking-form textarea:focus {
+            border-color: #fff!important;
+        }
+
+        .booking-form button[type="submit"] {
+            background: #313131!important;
+            color: #fff!important;
+        }
+
+        .booking-form button[type="submit"]:hover {
+            background: #fff!important;
+            color: #313131!important;
+        }
+    </style>
+
+</head>
+
+<body>
+    
+    <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.10&appId=323620764400430";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+    <!--Header-Area Start-->
+    <div class="header-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 col-lg-6 col-12">
+                    <div class="header-login">
+                        <ul>
+
+
+                                                                                        <li><a href="https://coolideamedia.com/servixo/docplus/patient/login">Patient Login / Registration</a></li>
+                                                        
+
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-12">
+                    <div class="header-info">
+                        <ul>
+                            <li>
+                                <i class="fa fa-envelope"></i>
+                                <span>info@yourwebsite.com</span>
+                            </li>
+                            <li>
+                                <i class="fa fa-phone"></i>
+                                <span>954-648-1802</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Header-Area End-->
+
+    <!--Menu Start-->
+    <div id="strickymenu" class="menu-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-12">
+                    <div class="logo flex">
+                        <a href="https://coolideamedia.com/servixo/docplus/"><img src="https://coolideamedia.com/servixo/docplus/public/uploads/logo.png" alt="Logo"></a>
+                    </div>
+                </div>
+                <div class="col-lg-9 col-12 main-menu">
+                    <div class="main-menu-item">
+                        <ul class="nav-menu">
+                            <li><a href="https://coolideamedia.com/servixo/docplus/">Home</a></li>
+                            <li><a href="https://coolideamedia.com/servixo/docplus/about">About</a></li>
+                            <li><a href="https://coolideamedia.com/servixo/docplus/doctors">Doctors</a></li>
+                            <li><a href="https://coolideamedia.com/servixo/docplus/faq">FAQ</a></li>
+                            <li><a href="https://coolideamedia.com/servixo/docplus/service">Service</a></li>
+                            <li><a href="https://coolideamedia.com/servixo/docplus/photo-gallery">Gallery</a></li>
+                            <li><a href="https://coolideamedia.com/servixo/docplus/news">News</a></li>
+                            <li><a href="https://coolideamedia.com/servixo/docplus/contact">Contact</a></li>
+                            <!-- <li class="menu-item-has-children"><a href="#">SUBMENU</a>
+                                <ul>
+                                    <li><a href="">Submenu Item 1</a></li>
+                                    <li><a href="">Submenu Item 2</a></li>
+                                </ul>
+                            </li> -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Menu End-->
+<!--Banner Start-->
+<div class="banner-slider" style="height:150px;background-image: url(https://coolideamedia.com/servixo/docplus/public/uploads/banner_patient_section.png)">
+    <div class="bg"></div>
+    <div class="bannder-table">
+        <div class="banner-text">
+            <h1>Patient Login / Registration</h1>
+        </div>
+    </div>
+</div>
+<!--Banner End-->
+
+<div class="contact-area pt_60 pb_90">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-6">
+                <div class="contact-form headstyle user-login-tab pt_0">
+                    
+                    
+                    <ul class="nav nav-tabs mt_15" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" data-toggle="tab" href="#patientLogin" role="tab">Patient Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="tab" href="#patientRegistration" role="tab">Patient Registration</a>
+                        </li>
+                    </ul>
+
+                    <!-- Tab panes -->
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="patientLogin" role="tabpanel">
+                            <form action="https://coolideamedia.com/servixo/docplus/patient/login" class="" method="post" accept-charset="utf-8">
+                                                                                                              <input type="hidden" name="csrf_test_name" value="c8097ca6b3ffecac668f17b754f65f1d" />
+                                <div class="form-row row mt_20">
+                                    <div class="form-group col-12">
+                                        <input type="email" class="form-control" placeholder="Email Address" name="patient_email" autocomplete="off" required>
+                                    </div>
+                                    <div class="form-group col-12">
+                                        <input type="password" class="form-control" placeholder="Password" name="patient_password" autocomplete="off" required>
+                                    </div>
+                                    <div class="form-group col-12">
+                                        <button type="submit" class="btn" name="form_login">Login</button>
+                                        <a href="https://coolideamedia.com/servixo/docplus/patient/forget-password" class="btn fp">Forget Password?</a>
+                                    </div>
+                                </div>
+                            </form>                        </div>
+                        <div class="tab-pane" id="patientRegistration" role="tabpanel">
+                            <form action="https://coolideamedia.com/servixo/docplus/patient/login" class="" method="post" accept-charset="utf-8">
+                                                         <input type="hidden" name="csrf_test_name" value="c8097ca6b3ffecac668f17b754f65f1d" />
+                                <div class="form-row row mt_20">
+                                    <div class="form-group col-12">
+                                        <input type="text" class="form-control" placeholder="Name" name="patient_name" autocomplete="off" required>
+                                    </div>
+                                    <div class="form-group col-12">
+                                        <input type="email" class="form-control" placeholder="Email Address" name="patient_email" autocomplete="off" required>
+                                    </div>
+                                    <div class="form-group col-12">
+                                        <input type="text" class="form-control" placeholder="Phone Number" name="patient_phone" autocomplete="off" required>
+                                    </div>
+                                    <div class="form-group col-12">
+                                        <input type="password" class="form-control" placeholder="Password" name="patient_password" autocomplete="off" required>
+                                    </div>
+                                    <div class="form-group col-12">
+                                        <input type="password" class="form-control" placeholder="Retype Password" name="patient_re_password" autocomplete="off" required>
+                                    </div>
+                                    <div class="form-group col-12">
+                                        <button type="submit" class="btn" name="form_registration">Registration</button>
+                                    </div>
+                                </div>
+                            </form>                        </div>
+                    </div>
+                   
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>    <!--Call Start-->
+    <div class="call-us" style="background-image: url(https://coolideamedia.com/servixo/docplus/public/uploads/cta_background.jpg)">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9 col-md-8 col-12">
+                    <div class="call-text">
+                        <h3>Do you want to get our quality service for your patient?</h3>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-12">
+                    <div class="button">
+                        <a href="#">Contact Us <i class="fa fa-chevron-circle-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Call End-->
+
+    <!--Footer-Area Start-->
+    <div class="footer-area pt_60 pb_90">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="footer-item" id="newsletter">
+                        <h3>NEWSLETTER</h3>
+                        <p>
+                            Detracto contentiones te est, brute ipsum consul an vis. Mea ei regione blandit ullamcorper, definiebas constituam vix ei.                        </p>
+                                                <form action="https://coolideamedia.com/servixo/docplus/newsletter/send" class="" method="post" accept-charset="utf-8">
+<input type="hidden" name="csrf_test_name" value="c8097ca6b3ffecac668f17b754f65f1d" />                                                                                                               
+                        <div class="input-group">                            
+                            <input type="email" class="form-control" placeholder="Email Address" name="email_subscribe" required>
+                            <span class="input-group-btn">
+                                <button class="btn" type="submit" name="form_subscribe"><i class="fa fa-location-arrow"></i></button>
+                            </span>                            
+                        </div>
+                        </form>                    </div>
+                </div>
+                <div class="col-lg-5 col-md-6">
+                    <div class="footer-item">
+                        <h3>RECENT POST</h3>
+                        <ul>
+                                                            <li><a href="https://coolideamedia.com/servixo/docplus/news/view/5">Lorem ipsum dolor sit amet vel cu habemus</a></li>    
+                                                                <li><a href="https://coolideamedia.com/servixo/docplus/news/view/4">Ei qui possim abhorreant ei eam iudico disputando</a></li>    
+                                                                <li><a href="https://coolideamedia.com/servixo/docplus/news/view/3">Est ei unum illum mucius, nemore alterum</a></li>    
+                                                                <li><a href="https://coolideamedia.com/servixo/docplus/news/view/2">An usu natum aperiri accommodare hendrerit</a></li>    
+                                                                <li><a href="https://coolideamedia.com/servixo/docplus/news/view/1">Vis nostro nominati electram ex aeterno voluptatum</a></li>    
+                                                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-item">
+                        <h3>ADDRESS</h3>
+                        <div class="footer-address-item">
+                            <div class="icon"><i class="fa fa-map-marker"></i></div>
+                            <div class="text">
+                                <span>
+                                    3153 Foley Street<br />
+Miami, FL 33176                                </span>
+                            </div>
+                        </div>
+                        <div class="footer-address-item">
+                            <div class="icon"><i class="fa fa-phone"></i></div>
+                            <div class="text">
+                                <span>
+                                    Sales: 954-648-1802<br />
+Support: 963-612-1782                                </span>
+                            </div>
+                        </div>
+                        <div class="footer-address-item">
+                            <div class="icon"><i class="fa fa-envelope-o"></i></div>
+                            <div class="text">
+                                <span>
+                                    sales@yourwebsite.com<br />
+support@yourwebsite.com                                </span>
+                            </div>
+                        </div>
+                        <ul class="footer-social">
+                            <li><a href="http://www.facebook.com"><i class="fa fa-facebook"></i></a></li><li><a href="http://www.twitter.com"><i class="fa fa-twitter"></i></a></li><li><a href="http://www.linkedin.com"><i class="fa fa-linkedin"></i></a></li><li><a href="http://www.pinterest.com"><i class="fa fa-pinterest"></i></a></li><li><a href="http://www.youtube.com"><i class="fa fa-youtube"></i></a></li>                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom pt_50 pb_50">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="footer-menu">
+                        <ul>
+                            <li><a href="https://coolideamedia.com/servixo/docplus/">Home</a></li>
+                            <li><a href="https://coolideamedia.com/servixo/docplus/terms-and-conditions">Terms and Conditions</a></li>
+                            <li><a href="https://coolideamedia.com/servixo/docplus/privacy-policy">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                    <div class="copy-text">
+                        <p>
+                            Copyright © 2019, docplus. All Rights Reserved.                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Footer-Area End-->
+
+    <!--Scroll-Top-->
+    <div class="scroll-top">
+        <i class="fa fa-angle-up"></i>
+    </div>
+    <!--Scroll-Top-->
+
+    
+
+</body>
+</html>
